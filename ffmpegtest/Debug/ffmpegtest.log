@@ -1,0 +1,24 @@
+﻿Build started 2017/9/16 23:35:23.
+     1>Project "F:\XMcode\ffmpegtest 2\ffmpegtest\ffmpegtest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\program files\VS2013\VC\bin\CL.exe /c /I"F:\XMcode\ffmpegtest 2\ffmpegtest\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_DEPRECAT /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ffmpegtest.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ffmpegtest.cpp
+         ffmpegtest.cpp
+     1>f:\xmcode\ffmpegtest 2\ffmpegtest\include\libavutil\rational.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>f:\xmcode\ffmpegtest 2\ffmpegtest\ffmpegtest.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\xmcode\ffmpegtest 2\ffmpegtest\ffmpegtest.cpp(106): warning C4996: 'AVStream::codec': was declared deprecated
+                 f:\xmcode\ffmpegtest 2\ffmpegtest\include\libavformat\avformat.h(893) : see declaration of 'AVStream::codec'
+     1>f:\xmcode\ffmpegtest 2\ffmpegtest\ffmpegtest.cpp(114): warning C4996: 'AVStream::codec': was declared deprecated
+                 f:\xmcode\ffmpegtest 2\ffmpegtest\include\libavformat\avformat.h(893) : see declaration of 'AVStream::codec'
+     1>f:\xmcode\ffmpegtest 2\ffmpegtest\ffmpegtest.cpp(181): warning C4996: 'avcodec_decode_video2': was declared deprecated
+                 f:\xmcode\ffmpegtest 2\ffmpegtest\include\libavcodec\avcodec.h(4978) : see declaration of 'avcodec_decode_video2'
+     1>f:\xmcode\ffmpegtest 2\ffmpegtest\ffmpegtest.cpp(196): warning C4996: 'av_free_packet': was declared deprecated
+                 f:\xmcode\ffmpegtest 2\ffmpegtest\include\libavcodec\avcodec.h(4635) : see declaration of 'av_free_packet'
+       Link:
+         E:\program files\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\XMcode\ffmpegtest 2\Debug\ffmpegtest.exe" /INCREMENTAL /NOLOGO avcodec.lib avformat.lib avutil.lib avdevice.lib avfilter.lib postproc.lib swresample.lib swscale.lib SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\XMcode\ffmpegtest 2\Debug\ffmpegtest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\XMcode\ffmpegtest 2\Debug\ffmpegtest.lib" /MACHINE:X86 Debug\ffmpegtest.obj
+         Debug\stdafx.obj
+         ffmpegtest.vcxproj -> F:\XMcode\ffmpegtest 2\Debug\ffmpegtest.exe
+     1>Done Building Project "F:\XMcode\ffmpegtest 2\ffmpegtest\ffmpegtest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86
